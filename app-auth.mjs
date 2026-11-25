@@ -1,7 +1,7 @@
 import { Buffer } from 'node:buffer';
 import { createPrivateKey, sign } from 'node:crypto';
 import { URL } from 'node:url';
-import { credential, positiveID, requireSecureTransport } from '@cairul/plugin-kit';
+import { credential, positiveID, requireSecureTransport } from '@cairul/pdk';
 
 const encode = (value) => Buffer.from(JSON.stringify(value)).toString('base64url');
 

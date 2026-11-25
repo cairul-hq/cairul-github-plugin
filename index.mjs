@@ -19,7 +19,7 @@ import {
   verdict,
   workURL,
   z,
-} from '@cairul/plugin-kit';
+} from '@cairul/pdk';
 import { installationCredential } from './app-auth.mjs';
 
 const locator = { repository: text.regex(/^[^/]+\/[^/]+$/).optional(), number: positiveID.optional() };
